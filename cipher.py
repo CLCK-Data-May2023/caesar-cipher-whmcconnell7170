@@ -21,5 +21,5 @@ for i in sentence_list: #for every character in the sentence
         cipher.append(shifted_letters[i.lower()]) #append the associated shifted letter
     else: #if the character is not in the alphabet
         cipher.append(i)
-print(''.join(cipher))
+print('The encrypted sentence is:',''.join(cipher))
         
